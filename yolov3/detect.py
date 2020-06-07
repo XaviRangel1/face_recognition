@@ -69,6 +69,7 @@ if __name__ == "__main__":
     print("\nPerforming object detection:")
     prev_time = time.time()
     for batch_i, (img_paths, input_imgs) in enumerate(dataloader):
+        print(input_imgs)
         # Configure input
         input_imgs = Variable(input_imgs.type(Tensor))
 
