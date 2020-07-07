@@ -5,7 +5,7 @@ class FaceRecognition():
         pass
     
     def extract(self, image, bounding_box):
-        return True
+        return None
 
     def recognize(self, face):
         return True
